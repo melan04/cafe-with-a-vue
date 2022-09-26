@@ -19,11 +19,16 @@ export default {
     <p>Email: {{ email }}</p>
     <p>Hours:</p>
     <ul>
-      <li>M-F: 06:00 to 16:00</li>
+      <li>Monday - Friday : 06:00 to 16:00</li>
       <li>Saturday: 07:00 to 14:00</li>
       <li>Sunday: 07:00 to 12:00</li>
     </ul>
   </div>
 </template>
 
-<style></style>
+<style lang="scss">
+ul {
+  list-style-type : none;
+}
+
+</style>
